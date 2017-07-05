@@ -1,6 +1,6 @@
 window.fbAsyncInit = function () {
     FB.init({
-        appId: '124008434870352',
+        appId: '1297911926974869',
         cookie: true,
         xfbml: true,
         version: 'v2.8'
@@ -16,11 +16,9 @@ window.fbAsyncInit = function () {
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 
-
 FB.getLoginStatus(function (response) {
     statusChangeCallback(response);
 });
-
 
 function checkLoginState() {
     FB.getLoginStatus(function (response) {
